@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(3, 3, 201);
+}
+.card-body {
+  background-color: rgb(214, 213, 213);
+}
+.border-radius {
+  border-radius: 50%;
+  border: 2 solid black;
+  background-color: blueviolet;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.border-bottom-timeline {
+  border-bottom: 1px dashed blue;
+}
+.timeline {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+.goals {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  margin-top: 10px;
+}
+h1 {
+  border-bottom: 2px solid rgb(180, 180, 180);
+  color: blue;
+}
+.team {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
